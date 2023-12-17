@@ -23,7 +23,7 @@ button {
     border: none;
     cursor: pointer;
     margin-top: 20px;
-    transition: background-color 0.3
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -35,4 +35,22 @@ p {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 16px;
+    }
 }
